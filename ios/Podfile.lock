@@ -1,0 +1,30 @@
+PODS:
+  - React (0.59.9):
+    - React/Core (= 0.59.9)
+  - React/Core (0.59.9):
+    - yoga (= 0.59.9.React)
+  - RNCAsyncStorage (1.5.0):
+    - React
+  - yoga (0.59.9.React)
+
+DEPENDENCIES:
+  - React (from `../node_modules/react-native`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-community/async-storage"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  React: a86b92f00edbe1873a63e4a212c29b7a7ad5224f
+  RNCAsyncStorage: 9436928b444c5f5361960a7eea051a697c244b68
+  yoga: 03ff42a6f223fb88deeaed60249020d80c3091ee
+
+PODFILE CHECKSUM: 473237ab0fc5e5ccb7c1062f9b1df54a8a48c7a9
+
+COCOAPODS: 1.6.1

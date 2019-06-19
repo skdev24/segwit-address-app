@@ -1,0 +1,41 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'lastbittask' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+
+  # use_frameworks!
+
+  # Pods for lastbittask
+  pod 'React', :path => '../node_modules/react-native'
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      if target.name == "React"
+        target.remove_from_project
+      end
+    end
+  end
+
+  target 'lastbittaskTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'lastbittask-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for lastbittask-tvOS
+
+  target 'lastbittask-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
