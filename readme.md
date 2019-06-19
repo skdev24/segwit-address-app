@@ -12,6 +12,14 @@ Please DO NOT use `npm install`.
 yarn install
 ```
 
+```
+cd ios && pod install && cd ..
+```
+
+```
+yarn postinstall
+```
+
 ## Library
 
 - [rn-bitcoinjs-lib](https://github.com/coreyphillips/rn-bitcoinjs-lib) (To generate a P2SH Segwit keypair)
