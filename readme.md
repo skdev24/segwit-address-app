@@ -1,6 +1,6 @@
 ## Segwit Testnet bitcoin
 
-This app will create a new segwit testnet bitcoin address and send the unspent transaction to another segwit address.
+This app will create a new segwit address and send the unspent transaction to another segwit address.
 
 ## Getting Started
 
@@ -18,11 +18,9 @@ yarn install
 
 ## API
 
-I have used `SoChain` API for fetching the transactions for the address and the available unspent bitcoin balance at that address.
+I have used [SoChain](https://chain.so/testnet/btc) API for fetching the transactions for the address and the available unspent bitcoin balance at that address.
 
 To sign and broadcast a transaction to another Segwit address, I'm using [smartbit](https://www.smartbit.com.au/)
-
-[SoChain Bitcoin(Testnet)](https://chain.so/testnet/btc)
 
 ### Screenshots
 
